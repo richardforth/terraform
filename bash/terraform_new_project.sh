@@ -16,6 +16,8 @@ function makeglobaldirs {
   # global
   mkdir -p ~/terraform/projects/${projectname}/global/iam
   mkdir -p ~/terraform/projects/${projectname}/global/s3
+  # modules
+  mkdir -p ~/terraform/projects/${projectname}/modules/services
 
 }
 
